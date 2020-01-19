@@ -7,6 +7,8 @@
     - [leetcode 题目分类](https://zhuanlan.zhihu.com/c_1083367494890164224)
         > 我觉得这个可以重点参考下，首先没必要去挨个挨个刷题，而是自己先看下有哪些类别，然后按照每个类别去刷特定的题目，每个类别多刷几道题，到最后每个类别都知道有哪些解法，再去看看剩下的题，为什么没有归类，如何刷  
        每个类别刷题后记得要写博客与总结
+    - [leetcode 标签](https://leetcode-cn.com/tag/dynamic-programming/)
+        > leetcode 本身自带标签了，可以通过标签来刷   
     - [lessfish](https://github.com/lessfish/leetcode)
     - [leetcode-javascript](https://github.com/chihungyu1116/leetcode-javascript)
     - [leetcode-cn中自带的用户题解](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/)
