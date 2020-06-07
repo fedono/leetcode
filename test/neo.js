@@ -1,10 +1,14 @@
+const computeArea = function(A, B, C, D, E, F, G, H) {
+    if (D <= F || E >= C || B >= H || G <= A) {
+        return (D -B ) * (C -A) + (H -F) * (G - E);
+    }
 
-// 矩形以列表 [x1, y1, x2, y2] 的形式表示，其中 (x1, y1) 为左下角的坐标，(x2, y2) 是右上角的坐标。
+    let left = Math.max(A, E);
+    let right = Math.min(C, G);
+    let up = Math.max(H, D);
+    let down = Math.min(F, B);
 
-const isRectangleOverlap = function (rec1, rec2) {
-    return (
-        Math.min(rec1[2], rec2[2]) > Math.max(rec1[0], rec2[0])
-        && Math.min(rec1[3], rec2[3]) > Math.max(rec1[1], rec2[1])
-    )
+    return (D - B) * (C -A) + (H - F) * (G - E) - (up - down) * (right - left);
 }
+
 
