@@ -1,14 +1,16 @@
-const computeArea = function(A, B, C, D, E, F, G, H) {
-    if (D <= F || E >= C || B >= H || G <= A) {
-        return (D -B ) * (C -A) + (H -F) * (G - E);
-    }
+let s = "13[a]2[bc]";
 
-    let left = Math.max(A, E);
-    let right = Math.min(C, G);
-    let up = Math.max(H, D);
-    let down = Math.min(F, B);
+let res = s.replace(/(\d+)\[(\w+)\]/g, (a, b, c) => {
+    return c.repeat(b);
+});
+console.log(res);
 
-    return (D - B) * (C -A) + (H - F) * (G - E) - (up - down) * (right - left);
+const decodeString = function (s) {
+    return s.replace(/(\d+)\[(\w+)\]/g, (a, b, c) => {
+        return c.repeat(b);
+    });
 }
 
-
+let res1 = decodeString(s);
+console.log(res1);
+console.log(s)
