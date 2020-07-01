@@ -1,22 +1,27 @@
-const merge = function(intervals) {
-    intervals.sort((a, b) => a[0] - b[0]);
+const inorderTraversal = function(root) {
+  let nums = [];
+  let stack = [];
 
-    let res = [];
-    let idx = -1;
-
-    for (let interval of intervals) {
-        if (idx == -1 || interval[0] > res[idx][1]) {
-            res.push(interval);
-            idx++;
-        } else {
-            res[idx][1] = Math.max(res[idx][1], interval[1]);
-        }
+  while (root || stack.length) {
+    while(root) {
+      stack.push(root);
+      root = root.left;
     }
-
-    return res;
+    root = stack.pop();
+    nums.push(root.val);
+    root = root.right;
+  }
+  return nums;
 }
 
+let root = {
+  left: {
+    left: {
 
-let re = merge([[1,3],[2,6],[8,10],[15,18]]);
-console.log(re)
+    },
+    val: '',
+    right: {
 
+    }
+  }
+}
