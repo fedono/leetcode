@@ -47,6 +47,7 @@
 [836-矩形重叠](./solutions/836-矩形重叠.md)\
 [223-矩形面积](./solutions/223-矩形面积.md)\
 [146-LRU缓存机制](./solutions/146-LRU缓存机制.md)
+[20-有效的括号](./solutions/20-有效的括号.md)
 
 ## 算法经典解法集合
 >  leetcode 题解法
