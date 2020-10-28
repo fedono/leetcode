@@ -14,8 +14,21 @@ retC.test('good');
 retC.test('good');
 retC.test('good');*/
 
-let cache = new Map();
-cache.set('name', 'jack');
-cache.set('age', 23);
-let keys = cache.keys();
-console.log(keys.next()) // 卧槽，Map 的 keys 是个什么结构，居然还有这种用法
+
+const shellSort = function(arr, len) {
+    for (let gap = len >> 1; gap > 0; gap >>= 1) {
+        for (let i = gap; i < len; i++) {
+            let temp = arr[i];
+            let j;
+            for (j = i - gap; j >= 0 && arr[j] > temp; j -= gap) {
+                arr[j + gap] = arr[j];
+            }
+            arr[j + gap] = temp;
+        }
+    }
+    return arr;
+}
+
+let arr = [ 13, 14, 94, 33, 82, 25, 59, 94, 65, 23, 45, 27, 73, 25, 39, 10 ];
+let res = shellSort(arr, arr.length);
+console.log(res);
