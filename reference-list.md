@@ -15,7 +15,9 @@
 - [algorithms](https://github.com/jeffgerickson/algorithms)
     > Bug-tracking for Jeff's algorithms book, notes, etc
 - [dsa.js-data-structures-algorithms-javascript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript) 
-    > Data Structures and Algorithms explained and implemented in JavaScript + eBook   
+    > Data Structures and Algorithms explained and implemented in JavaScript + eBook  
+- [极客时间里的算法专栏](https://github.com/wangzheng0822/algo)     
+- [刷题参考列表](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)  
     
 ## 附录
 - [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
