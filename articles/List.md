@@ -24,7 +24,7 @@
  p—>next = new_node;
  但，若向空链表中插入一个节点，则代码如下:
  if(head == null){
- head = new_node;
+    head = new_node;
  }
  如果要删除节点p的后继节点，只需1行代码即可搞定:
  p—>next = p—>next—>next; 但，若是删除链表的最有一个节点(链表中只剩下这个节点)，则代码如下:
