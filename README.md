@@ -24,7 +24,9 @@
 
 ## 数组
 [1-两数之和](./solutions/1-两数之和.md)\
+[11-盛最多水的容器](./solutions/11-盛最多水的容器.md)\
 [15-三数之和](./solutions/15-三数之和.md)\
+[42-接雨水](./solutions/42-接雨水.md)
 [49-字母异位词分组](./solutions/49-字母异位词分组.md)\
 [56-合并区间](./solutions/56-合并区间.md)\
 [283-移动零](./solutions/283-移动零.md)\
@@ -61,6 +63,10 @@
 [106-相交链表](./solutions/106-相交链表.md)\
 [61-旋转链表](./solutions/61-旋转链表.md)\
 [146-LRU缓存机制](./solutions/146-LRU缓存机制.md)\
+- swap-nodes-in-pairs
+- linked-list-cycle
+- linked-list-cycle-ii
+- reverse-nodes-in-k-group
 
 ## 二叉树
 - [ ] 实现一个二叉树
@@ -88,8 +94,16 @@
 [背包问题](./solutions/背包问题.md)
 
 ## 贪心算法
+> 每次都选择当前这一步的最优的选择，以达到全局的最优
 [区间调度](./solutions/区间调度.md)\
+[55-跳跃游戏](./solutions/55-跳跃游戏.md)\
+[122-买卖股票的最佳时机-ii](./solutions/122-买卖股票的最佳时机-ii.md)
 [435-无重叠区间](./solutions/435-无重叠区间.md)\
+[455-分发饼干](./solutions/455-分发饼干.md)\
+[860-柠檬水找零](./solutions/860-柠檬水找零.md)\
+- walking-robot-simulation
+- jump-game
+- jump-game-ii
 
 ## 双指针
 [11]
