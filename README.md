@@ -13,14 +13,16 @@
 ## 字符串
 [3-无重复字符的最长子串](./solutions/3-无重复字符的最长子串.md)\
 [14-最长公共前缀](./solutions/14-最长公共前缀.md)\
+[22-括号生成](./solutions/22-括号生成.md)
 [151-翻转字符串里的单词](./solutions/151-翻转字符串里的单词.md)\
 [242-有效的字母异位词](./solutions/242-有效的字母异位词.md)\
 [344-反转字符串](./solutions/344-反转字符串.md)\
 [394-字符串解码](./solutions/394-字符串解码.md)\
 [438-找到字符串中所有字母异位词](./solutions/438-找到字符串中所有字母异位词.md)\
-[1663-具有给定数值的最小字符串](./solutions/1663-具有给定数值的最小字符串.md)
+[1663-具有给定数值的最小字符串](./solutions/1663-具有给定数值的最小字符串.md)\
 [字符串匹配]
 > 搜索一下 阮一峰 kmp (阮老师有一篇讲 kmp 的还挺好的)
+
 [大数相加](./solutions/大数相加.md)\
 
 ## 数组
@@ -74,13 +76,28 @@
 ## 二叉树
 - [ ] 实现一个二叉树
 - [ ] 二叉树二叉树的前中后序遍历\
-- [94-二叉树的中序遍历](./solutions/94-二叉树的中序遍历.md)
-- [958-二叉树的完全性检验](./solutions/958-二叉树的完全性检验.md)
-- [105-已知前中序，求原有的二叉树](./solutions/105-已知前中序，求原有的二叉树.md)\
-- [173-二叉搜索树迭代器](./solutions/173-二叉搜索树迭代器.md)
-    > 这题还是没太理解解法的含义
-- [823-带因子的二叉树](./solutions/823-带因子的二叉树.md)    
-
+[94-二叉树的中序遍历](./solutions/94-二叉树的中序遍历.md)\
+[144-二叉树的前序遍历](./solutions/144-二叉树的前序遍历.md)\
+[145-二叉树的后序遍历](./solutions/145-二叉树的后序遍历.md)\
+[958-二叉树的完全性检验](./solutions/958-二叉树的完全性检验.md)\
+[105-已知前中序，求原有的二叉树](./solutions/105-已知前中序，求原有的二叉树.md)\
+[173-二叉搜索树迭代器](./solutions/173-二叉搜索树迭代器.md)\
+  > 这题还是没太理解解法的含义
+[823-带因子的二叉树](./solutions/823-带因子的二叉树.md)\
+- binary-tree-inorder-traversal
+- binary-tree-preorder-traversal
+- n-ary-tree-postorder-traversal
+- n-ary-tree-level-order-traversal 
+- invert-binary-tree
+- validate-binary-search-tree
+- maximum-depth-of-binary-tree
+- minimum-depth-of-binary-tree
+- serialize-and-deserialize-binary-tree
+- lowest-common-ancestor-of-a-binary-tree
+- construct-binary-tree-from-preorder-and-inorder-traversal
+- combinations
+- permutations
+- permutations-ii
 - [深度/广度遍历](./solutions/深度-广度遍历.md)    
 
 ## 动态规划
@@ -116,7 +133,7 @@
 [1047]
 
 ## 回溯法
-> 回溯主要还是要考DFS
+> 回溯主要还是要考 DFS
 [22-括号生成](./solutions/22-括号生成.md)\
 [39-组合总和](./solutions/39-组合总和.md)\
 [50]
