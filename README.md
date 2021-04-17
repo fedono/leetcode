@@ -133,11 +133,16 @@
 [1047]
 
 ## 回溯法
-> 回溯主要还是要考 DFS
+> 回溯主要还是要考 DFS，然后就是把在递归前的数据设置一下，递归之后设置回来，然后第三点就是在判断条件符合输出条件的时候，添加到结果集中，并return空。
+> 
+> 所以要考虑的点就是，在设置进入递归的条件是什么？
 [22-括号生成](./solutions/22-括号生成.md)\
 [39-组合总和](./solutions/39-组合总和.md)\
-[50]
-[78]
+[46-全排列](./solutions/46-全排列.md)\
+[47-全排列-ii](./solutions/47-全排列-ii.md)\
+[78-子集](./solutions/78-子集.md)\
+[90]
+[]
 - majority-element
 - letter-combinations-of-a-phone-number
 - n-queens
