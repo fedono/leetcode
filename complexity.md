@@ -18,7 +18,7 @@ for (let i = 1; i < n; i = i * 2) {
 }
 ```
 
-下面这个复杂度是 O(k^n)，这里的 k 是个常数，可以是2或者3或者是啥的
+下面这个复杂度是 O(k^n)，也就是指数级，这里的 k 是个常数，可以是2或者3或者是啥的
 ```javascript
 const fib = function (n) {
   if (n <= 2) {
@@ -64,3 +64,6 @@ Big O notation
 > 复杂度都是只看最高复杂度的运行 
 > 
 > 算法导论给出的解释：大O用来表示上界的，当同它作为算法的最坏情况运行时间的上界，就是对任意数据输入的运行时间的上界
+
+
+[stackoverflow - what-is-a-plain-english-explanation-of-big-o-notation](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
