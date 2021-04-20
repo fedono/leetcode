@@ -19,6 +19,7 @@
 [344-反转字符串](./solutions/344-反转字符串.md)\
 [394-字符串解码](./solutions/394-字符串解码.md)\
 [438-找到字符串中所有字母异位词](./solutions/438-找到字符串中所有字母异位词.md)\
+[844-比较含退格的字符串](./solutions/844-比较含退格的字符串.md)\
 [1663-具有给定数值的最小字符串](./solutions/1663-具有给定数值的最小字符串.md)\
 [字符串匹配]
 > 搜索一下 阮一峰 kmp (阮老师有一篇讲 kmp 的还挺好的)
@@ -49,6 +50,7 @@
 
 ## 栈和队列
 > 队列是先进先出，栈是先进后出
+[20-有效的括号](./solutions/20-有效的括号.md)\ 
 - valid-parentheses
 - 155 min-stack
 - design-circular-deque
@@ -68,6 +70,7 @@
 [106-相交链表](./solutions/106-相交链表.md)\
 [61-旋转链表](./solutions/61-旋转链表.md)\
 [146-LRU缓存机制](./solutions/146-LRU缓存机制.md)\
+[876-链表的中间节点](./solutions/876-链表的中间节点.md)\
 - swap-nodes-in-pairs
 - linked-list-cycle
 - linked-list-cycle-ii
@@ -151,7 +154,7 @@
 [611-有效三角形的个数](./solutions/611-有效三角形的个数.md)\
 [836-矩形重叠](./solutions/836-矩形重叠.md)\
 [223-矩形面积](./solutions/223-矩形面积.md)\
-[20-有效的括号](./solutions/20-有效的括号.md)
+
 
 ## 算法经典解法集合
 >  leetcode 题解法
