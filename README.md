@@ -27,6 +27,7 @@
 [大数相加](./solutions/大数相加.md)\
 
 ## 数组
+> [总结](./articles/array.md)
 [1-两数之和](./solutions/1-两数之和.md)\
 [11-盛最多水的容器](./solutions/11-盛最多水的容器.md)\
 [15-三数之和](./solutions/15-三数之和.md)\
@@ -54,6 +55,7 @@
 ## 栈和队列
 > 队列是先进先出，栈是先进后出
 [20-有效的括号](./solutions/20-有效的括号.md)\ 
+[有效的括号-ii](./solutions/有效的括号-ii.md)\ 
 - valid-parentheses
 - 155 min-stack
 - design-circular-deque
@@ -130,6 +132,7 @@
 [435-无重叠区间](./solutions/435-无重叠区间.md)\
 [455-分发饼干](./solutions/455-分发饼干.md)\
 [860-柠檬水找零](./solutions/860-柠檬水找零.md)\
+[1663-具有给定数值的最小字符串](./solutions/1663-具有给定数值的最小字符串.md)\
 - walking-robot-simulation
 - jump-game
 - jump-game-ii
@@ -146,9 +149,11 @@
 > 
 > 所以要考虑的点就是，在设置进入递归的条件是什么？
 [22-括号生成](./solutions/22-括号生成.md)\
+[32-最长有效括号](./solutions/32-最长有效括号.md)\
 [39-组合总和](./solutions/39-组合总和.md)\
 [46-全排列](./solutions/46-全排列.md)\
 [47-全排列-ii](./solutions/47-全排列-ii.md)\
+[51-N皇后](./solutions/51-N皇后.md)\
 [78-子集](./solutions/78-子集.md)\
 [90]
 []
