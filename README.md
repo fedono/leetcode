@@ -34,6 +34,7 @@
 [26-删除有序数组中的重复项](./solutions/26-删除有序数组中的重复项.md)\
 [42-接雨水](./solutions/42-接雨水.md)\
 [49-字母异位词分组](./solutions/49-字母异位词分组.md)\
+[53-最大子序和](./solutions/53-最大子序和.md)\
 [56-合并区间](./solutions/56-合并区间.md)\
 [80-删除有序数组中的重复项-ii](./solutions/80-删除有序数组中的重复项-ii.md)\
 [283-移动零](./solutions/283-移动零.md)\
@@ -42,6 +43,7 @@
 [384-打乱数组](./solutions/384-打乱数组.md)\
 [509-斐波那契](./solutions/509-斐波那契.md)\
 [692-前K个高频单词](./solutions/692-前K个高频单词.md)\
+[697-数组的度](./solutions/697-数组的度.md)\
 [1002-查找常用字符](./solutions/1002-查找常用字符.md)\
 [215-数组中的第K个最大元素](./solutions/215-数组中的第K个最大元素.md)\
 [1296-划分数组为连续的数字的集合](./solutions/1296-划分数组为连续的数字的集合.md)\
@@ -55,7 +57,8 @@
 ## 栈和队列
 > 队列是先进先出，栈是先进后出
 [20-有效的括号](./solutions/20-有效的括号.md)\ 
-[有效的括号-ii](./solutions/有效的括号-ii.md)\ 
+[有效的括号-ii](./solutions/有效的括号-ii.md)\
+[239-滑动窗口最大值](./solutions/239-滑动窗口最大值.md)\
 - valid-parentheses
 - 155 min-stack
 - design-circular-deque
@@ -107,7 +110,10 @@
 - combinations
 - permutations
 - permutations-ii
-- [深度/广度遍历](./solutions/深度-广度遍历.md)    
+  
+## 深度/广度
+- [深度/广度遍历](./solutions/深度-广度遍历.md)
+- [491-递增子序列](./solutions/491-递增子序列.md)
 
 ## 动态规划
 [5-最长回文字符串](./solutions/5-最长回文字符串.md)\
@@ -117,9 +123,14 @@
 [63-不同路径2](./solutions/63-不同路径2.md)\
 [70-爬楼梯](./solutions/70-爬楼梯.md)\
 [70-青蛙跳台阶问题](./solutions/70-青蛙跳台阶问题.md)\
+[72-编辑距离](./solutions/72-编辑距离.md)\
 [115-不同的子序列](./solutions/115-不同的子序列.md)\
+[300-最长递增子序列](./solutions/300-最长递增子序列.md)\
 [322-零钱兑换](./solutions/322-零钱兑换.md)\
+[416-分割等和子集](./solutions/416-分割等和子集.md)\
 [516-最长回文子序列](./solutions/516-最长回文子序列.md)\
+[651-四键键盘](./solutions/651-四键键盘.md)\
+[887-鸡蛋掉落](./solutions/887-鸡蛋掉落.md)\
 [1143-最长公共子序列](./solutions/1143-最长公共子序列.md)\
 [背包问题](./solutions/背包问题.md)
 
@@ -159,7 +170,6 @@
 []
 - majority-element
 - letter-combinations-of-a-phone-number
-- n-queens
 
 ## 暂未归类
 [611-有效三角形的个数](./solutions/611-有效三角形的个数.md)\
