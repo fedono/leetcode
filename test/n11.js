@@ -1,40 +1,35 @@
-const maxEnvelopes = function (envelopes) {
-    if (envelopes.length === 0) {
-        return 0;
-    }
+const shipWithinDays = function (weights, D) {
+    let left = Math.max(...weights);
+    let right = weights.reduce((memo, curr) => {
+        memo = memo + curr;
+        return memo;
+    }, 0);
 
-    const binarySearch = function (f, target) {
-        let low = 0, high = f.length - 1;
-        while (low < high) {
-            const mid = Math.floor((high - low) / 2) + low;
-            if (f[mid] < target) {
-                low = mid + 1;
+    while (left < right) {
+        const mid = Math.floor((left + right) / 2);
+        // need 为需要运送的天数
+        // cur 为当前这一天已经运送的包裹重量之和
+        let need = 1, cur = 0;
+        for (const weight of weights) {
+            if (cur + weight > mid) {
+                need++;
+                cur = 0;
             }
-            else {
-                high = mid;
-            }
+            cur += weight;
         }
 
-        return low;
-    }
-
-    const n = envelopes.length;
-    envelopes.sort((a, b) => a[0] === b[0] ? b[1] - a[1] : a[1] - b[1]);
-    const f = [envelopes[0][1]];
-    for (let i = 0; i < n; i++) {
-        const num = envelopes[i][1];
-        if (num > f[f.length - 1]) {
-            f.push(num);
+        if (need <= D) {
+            right = mid;
         }
         else {
-            const index = binarySearch(f, num);
-            f[index] = num;
+            left = mid + 1;
         }
     }
 
-    return f.length;
+    return left;
 }
 
-let envelopes = [[5,4],[6,4],[6,7],[2,3]];
-let result = maxEnvelopes(envelopes);
+// let weights = [1,2,3,4,5,6,7,8,9,10], D = 5;
+let weights = [3,2,2,4,1,4], D = 3
+let result = shipWithinDays(weights, D);
 console.log(result)
