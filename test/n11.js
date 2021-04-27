@@ -1,46 +1,40 @@
-const solveNQueens = n => {
-    const board = Array.from({length: n}, () => Array.from({length: n}).fill('.'));
+const maxEnvelopes = function (envelopes) {
+    if (envelopes.length === 0) {
+        return 0;
+    }
 
-    const cols = new Set(); // 与当前皇后同列的位置
-    const diag1 = new Set(); // 与当前皇后反对角线的位置
-    const diag2 = new Set(); // 与当前皇后正对角线的位置
-    const res = [];
-
-    const backtrack = row => {
-        if (row === n) {
-            const stringsBoard = board.slice();
-            for (let i = 0; i < n; i++) {
-                stringsBoard[i] = stringsBoard[i].join('');
+    const binarySearch = function (f, target) {
+        let low = 0, high = f.length - 1;
+        while (low < high) {
+            const mid = Math.floor((high - low) / 2) + low;
+            if (f[mid] < target) {
+                low = mid + 1;
             }
-            res.push(stringsBoard);
-            return;
+            else {
+                high = mid;
+            }
         }
 
-        for (let col = 0; col < n; col++) {
-            // 先检测一下，在与当前皇后同列以及对角线不存在的时候，就进行回溯
-            if (
-                !cols.has(col)
-                && !diag1.has(row + col)
-                && !diag2.has(row - col)
-            ) {
-                cols.add(col);
-                diag1.add(row + col);
-                diag2.add(row - col);
+        return low;
+    }
 
-                board[row][col] = 'Q';
-                backtrack(row + 1);
-                board[row][col] = '.';
-
-                cols.delete(col);
-                diag1.delete(row + col);
-                diag2.delete(row - col);
-            }
+    const n = envelopes.length;
+    envelopes.sort((a, b) => a[0] === b[0] ? b[1] - a[1] : a[1] - b[1]);
+    const f = [envelopes[0][1]];
+    for (let i = 0; i < n; i++) {
+        const num = envelopes[i][1];
+        if (num > f[f.length - 1]) {
+            f.push(num);
+        }
+        else {
+            const index = binarySearch(f, num);
+            f[index] = num;
         }
     }
 
-    backtrack(0);
-    return res;
+    return f.length;
 }
 
-let result = solveNQueens(4);
-console.log(result);
+let envelopes = [[5,4],[6,4],[6,7],[2,3]];
+let result = maxEnvelopes(envelopes);
+console.log(result)
