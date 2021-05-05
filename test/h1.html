@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var a = 10;
+    function a() {}
+    console.log(a);
+    (function() {
+        console.log(a, '--- 1');
+        a = 5;
+        console.log(window.a, '--- 2');
+    })()
+
+    console.log(a)
+</script>
+</body>
+</html>

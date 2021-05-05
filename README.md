@@ -176,6 +176,8 @@
 [47-全排列-ii](./solutions/47-全排列-ii.md)\
 [51-N皇后](./solutions/51-N皇后.md)\
 [78-子集](./solutions/78-子集.md)\
+> 这个是非常经典的入门回溯的方法，先看这个来熟悉回溯
+
 [90]
 []
 - majority-element
