@@ -25,8 +25,20 @@
 ---
 参考
 - [lago](https://github.com/yangshun/lago)
+    
     > 看一下数据结构的实现
 - [data-structures](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures)
+    
     > 各种数据结构的实现    
 - [javascript-data-structures](https://www.geeksforgeeks.org/tag/javascript-ds/)  
 - [使用JS实现Tree/Graph等](https://github.com/jamiebuilds/itsy-bitsy-data-structures#L407)  
+
+- [itsy-bitsy-data-structures](https://github.com/jamiebuilds/itsy-bitsy-data-structures)
+  - List
+  - HashTable 
+  - Stack 
+  - Queue
+  -  Graph
+  - LinkedList
+  - Tree 
+  - BinarySearchTree
