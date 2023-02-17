@@ -107,8 +107,13 @@ class BinarySearchTree {
     }
   }
 
-  // 刚开始看，好像下面这三个遍历都一样
-  // 但是其实还是不一样，而且肯定是不一样，要不然怎么会是三种遍历呢
+  /*
+  * imp 刚开始看，好像下面这三个遍历都一样
+  *   但是其实还是不一样，而且肯定是不一样，要不然怎么会是三种遍历呢
+  *
+  * imp 不一样的点在于这里的 console.log 的顺序，输出的顺序就是遍历的结果
+  *  可以换成 arr.push(node.data) 最后的 arr 的数据就是遍历的结果
+  * */
   // 前序遍历
   preorder(node) {
     if (node !== null) {
@@ -151,4 +156,4 @@ BST.insert(9);
 BST.insert(27);
 
 let root = BST.getRootNode();
-console.log(root);
+console.log(JSON.stringify(root, null, 2));

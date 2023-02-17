@@ -11,7 +11,7 @@
 - 队列 Queue
 - 链表 Linked List
 - 双向链表 Doubly Linked List
-- 图 Graph
+- 图 Graph 
 - 哈希 Hash Table
 - 树 Tree
     - 二叉树 Binary Search Tree 
@@ -26,7 +26,7 @@
 参考
 - [lago](https://github.com/yangshun/lago)
   
-    > 看一下数据结构的实现
+    > 看一下数据结构的实现(这里面的例子也比较好懂一点，tree / list)
     
 - [data-structures](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures)
   
